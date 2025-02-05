@@ -7,7 +7,7 @@ body {
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden; 
 }
 
 /* Header */
@@ -18,7 +18,7 @@ header {
 }
 
 .logo img {
-    max-width: 250px; /* Adjust size as needed */
+    max-width: 250px;
     height: auto;
 }
 
@@ -81,15 +81,15 @@ nav ul li a:hover::after {
 /* Promotional Banner */
 .promo-banner {
     width: 100%;
-    height: 10vh; /* Full viewport height */
-    min-height: 400px; /* Ensures it doesn’t shrink too much */
+    height: 10vh; 
+    min-height: 400px; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
     position: relative;
-    overflow: hidden; /* Prevents scrolling */
+    overflow: hidden; 
 }
 
 .promo-banner img {
@@ -98,9 +98,9 @@ nav ul li a:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Prevents stretching */
+    object-fit: cover; 
     object-position: center;
-    z-index: -1; /* Keeps the image in the background */
+    z-index: -1; 
 }
 
 .promo-banner .banner-content {
@@ -136,7 +136,7 @@ nav ul li a:hover::after {
 /* Fancy Button */
 .btn {
     display: inline-block;
-    background: #ffcc00; /* Button color */
+    background: #ffcc00; 
     color: #333;
     padding: 12px 20px;
     text-decoration: none;
@@ -148,8 +148,8 @@ nav ul li a:hover::after {
 
 /* Hover Effect */
 .btn:hover {
-    background: #ff9900; /* Darker shade on hover */
-    transform: translateY(-3px); /* Slight lift effect */
+    background: #ff9900; 
+    transform: translateY(-3px); 
 }
 
 /* Footer Styles */
@@ -175,7 +175,7 @@ footer {
 }
 
 .footer-column h3 {
-    color: #ffcc00; /* Gold accent for elegance */
+    color: #ffcc00; 
     margin-bottom: 10px;
 }
 
@@ -185,7 +185,7 @@ footer {
 }
 
 .footer-logo {
-    width: 80px; /* Adjust size as needed */
+    width: 80px; 
     height: auto;
     margin-bottom: 10px;
 }
@@ -200,7 +200,7 @@ footer {
 }
 
 .social-icons a:hover {
-    color: #ffcc00; /* Gold hover effect */
+    color: #ffcc00; 
 }
 
 /* Footer Bottom */
